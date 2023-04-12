@@ -1,0 +1,29 @@
+{
+    "name": "airport-booking/api",
+    "description": "API that provides endpoints to book airport tickets.",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-pgsql": "*",
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "slim/http": "^1.3",
+        "stripe/stripe-php": "^10.12",
+        "endroid/qr-code": "^4.8",
+        "setasign/fpdf": "^1.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AirportBooking\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aidarkhanov",
+            "email": "dairaidarkhanov@gmail.com"
+        }
+    ]
+}
